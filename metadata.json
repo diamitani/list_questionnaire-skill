@@ -1,0 +1,29 @@
+{
+  "name": "list_questionnaire",
+  "full_name": "list_questionnaire-skill",
+  "category": "99-uncategorized",
+  "description": "List Creation \u2014 Question Flow",
+  "source_file": "list_questionnaire.md",
+  "created": "2026-08-28T17:21:19.796719",
+  "author": "diamitani",
+  "tags": [
+    "99_uncategorized",
+    "ai_skill",
+    "agent_framework"
+  ],
+  "framework": {
+    "type": "SKILL.md",
+    "compliance": "PAL v2.0",
+    "intake_required": true,
+    "mcp_ready": false
+  },
+  "placeholders": {
+    "{{COMPANY_NAME}}": "Replace with your company name",
+    "{{COMPANY_SLUG}}": "Replace with company URL slug",
+    "{{USER_HOME}}": "User home directory path",
+    "{{N8N_INSTANCE_URL}}": "Your n8n instance URL",
+    "{{HUBSPOT_PORTAL_ID}}": "HubSpot portal ID",
+    "{{ADMIN_EMAIL}}": "Admin email address",
+    "{{MEETINGS_URL}}": "Calendar meetings URL"
+  }
+}
