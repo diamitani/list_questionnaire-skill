@@ -1,3 +1,9 @@
+---
+name: list-questionnaire
+description: >
+  The exact questionnaire to run (via `AskUserQuestion`) **before** creating a HubSpot list, and how each answer maps to a `hubspot_upload.py` flag. Run this only when the user wants records pushed into HubSpot *and* added to a list. If they only want the file, skip it. Use this skill when working with list questionnaire tasks or workflows.
+---
+
 # List Creation — Question Flow
 
 The exact questionnaire to run (via `AskUserQuestion`) **before** creating a HubSpot list,
